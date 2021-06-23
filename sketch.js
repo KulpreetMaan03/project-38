@@ -95,6 +95,7 @@ function draw() {
 
     if(keyDown("space") && mario.y >= 159) {
       mario.velocityY = -12;
+      score=score+1;
     }
    
     
